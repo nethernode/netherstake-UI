@@ -21,7 +21,7 @@
     "buffer": "^6.0.3",
     "compare-versions": "^5.0.1",
     "cosmjs-types": "^0.4.1",
-    "dotenv": "^16.0.0",
+    "dotenv": "^16.0.3",
     "fuzzy-search": "^3.2.1",
     "mathjs": "^10.4.3",
     "moment": "^2.29.2",
