@@ -1,7 +1,9 @@
 [
   {
     "name": "osmosis",
-    "ownerAddress": "osmovaloper1u5v0m74mql5nzfx2yh43s2tke4mvzghr6m2n5t",
+    "gasPrice": "0.0025uosmo",
+    "ownerAddress": "osmovaloper1md9f5524vtmrn64lyv2pdfn7cnkjkklf44vtjz",
+    "default": true,
     "maxPerDay": 1,
     "apiVersions": {
       "gov": "v1beta1"
@@ -9,11 +11,19 @@
   },
   {
     "name": "juno",
-    "ownerAddress": "junovaloper19ur8r2l25qhsy9xvej5zgpuc5cpn6syydmwtrt"
+    "ownerAddress": "junovaloper193xl2tqh2tjkld2zv49ku5s44ee4qmgr65jcep"
+  },
+  {
+    "name": "canto",
+    "ownerAddress": "cantovaloper15qssqkxe3lmjgpzec6sltvas4j62f4mdu090md"
   },
   {
     "name": "cosmoshub",
-    "ownerAddress": "cosmosvaloper1a37ze3yrr2y9nn98l6frhjskmufvd40cpyd0gq"
+    "ownerAddress": "cosmosvaloper19ecn7ljwp6el2pc5lldyauwv05ufwut9mm38r5"
+  },
+  {
+    "name":"axelar",
+    "ownerAddress":"axelarvaloper1j5vxzfx74xlml73e2mz9nn2ultz9jhzxjsakxw"
   },
   {
     "name": "akash",
@@ -21,7 +31,7 @@
   },
   {
     "name": "chihuahua",
-    "ownerAddress": "chihuahuavaloper19vwcee000fhazmpt4ultvnnkhfh23ppwxll8zz"
+    "ownerAddress": "chihuahuavaloper1t85yx95l5pajl9hwkeztawqf8sg9uh4lglgu9w"
   },
   {
     "name": "gravitybridge"
@@ -34,10 +44,12 @@
     "name": "terra"
   },
   {
-    "name": "terra2"
+    "name": "terra2",
+    "ownerAddress":"terravaloper1pwum4swah9t5mjynalk3f334v4ztxc66k29v25"
   },
   {
-    "name": "sentinel"
+    "name": "sentinel",
+    "ownerAddress":"sentvaloper1tjgec0ssfrlldmut69xsp8vzljugg0g306aae2"
   },
   {
     "name": "dig"
@@ -53,6 +65,7 @@
   },
   {
     "name": "desmos",
+    "ownerAddress":"desmosvaloper1lf3fg79gf2qf6ept7ec22kjd8s6gj3swr2ca0v",
     "authzSupport": true,
     "authzAminoSupport": true
   },
@@ -62,7 +75,7 @@
   },
   {
     "name": "evmos",
-    "ownerAddress": "evmosvaloper1umk407eed7af6anvut6llg2zevnf0dn0feqqny",
+    "ownerAddress": "evmosvaloper1ulkhal0g0fmgsjlf8q7mdd46m6t9sqkhmpfvfd",
     "txTimeout": 120000,
     "maxPerDay": 1,
     "authzAminoSupport": false
@@ -74,14 +87,16 @@
     "name": "lumnetwork"
   },
   {
-    "name": "stargaze"
+    "name": "stargaze",
+    "ownerAddress":"starsvaloper17z2ynnlm8evtjpzvsw3239w75474rc7a4du4l3"
   },
   {
     "name": "comdex",
-    "ownerAddress": "comdexvaloper17f70yjkvmvld379904jaddx9h0f74n32pjtmp6"
+    "ownerAddress": "comdexvaloper14yh3sqetnphupx2r4jrjctpsqqg7jqmnmzpxc4"
   },
   {
-    "name": "cheqd"
+    "name": "cheqd",
+    "ownerAddress":"cheqdvaloper1qsp3a2qd6km9g0hczsac8279wcwmzmvzgvre8w"
   },
   {
     "name": "umee"
@@ -115,7 +130,8 @@
   },
   {
     "name": "secretnetwork",
-    "authzAminoSupport": true
+    "authzAminoSupport": true,
+    "ownerAddress":"secretvaloper16k26akna7h295rfjx3278s7xusnt736vy437y8"
   },
   {
     "name": "bostrom"
@@ -131,7 +147,7 @@
   },
   {
     "name": "assetmantle",
-    "ownerAddress": "mantlevaloper1fqs7gakxdmujtk0qufdzth5pfyspus3yx394zd"
+    "ownerAddress": "mantlevaloper18zzddr4cqpz56z2hqvdczqvwwy4ez29z0rw4u6"
   },
   {
     "name": "crescent"
@@ -150,7 +166,7 @@
   },
   {
     "name": "kujira",
-    "ownerAddress": "kujiravaloper1vue5lawr3s0au9zj0aqeft5aknx6cjq6w5ghca"
+    "ownerAddress": "kujiravaloper1med39q63mwzxgqdzus70lp98krdrfmhhm4v8al"
   },
   {
     "name": "genesisl1",
@@ -176,27 +192,28 @@
   },
   {
     "name": "passage",
-    "ownerAddress": "pasgvaloper196rujtjehu0dfc7y85lkcaps6tel76g3l9knjy"
+    "ownerAddress": "pasgvaloper1c42pgxrg652f2f26dfgj40a7y5rhkt0wm9hwfj"
   },
   {
     "name": "stride",
-    "ownerAddress": "stridevaloper1x2kta40h5rnymtjn6ys7vk2d87xu7y6zfu9j3r",
+    "ownerAddress": "stridevaloper1dvgnqmgehv3kmtvu3e6xuujaxu9c9wepx6dmze",
     "authzSupport": false
   },
   {
     "name": "pulsar",
+    "ownerAddress": "secretvaloper1mppy58g60n9wkr5494yqd8hmtgcyh5v6pynlfz",
     "testnet": true
   },
   {
     "name": "teritori",
-    "ownerAddress": "torivaloper1d5u07lhelk6lal44a0myvufurvsqk5d499h9hz"
+    "ownerAddress": "torivaloper1jc2rvsg7dlrk5exay5kxqtrmvtuml8l0k4fwtk"
   },
   {
     "name": "rebus"
   },
   {
     "name": "jackal",
-    "ownerAddress": "jklvaloper1rdyunvvqg2l3723hlyjvvsnkd4vg338uar8q2s"
+    "ownerAddress": "jklvaloper1fjv9s3m2cg8few68med8wjdh2e0stvnps8mvfa"
   },
   {
     "name": "oraichain"
@@ -206,14 +223,14 @@
   },
   {
     "name": "mars",
-    "ownerAddress": "marsvaloper1hvtaqw9mlwc0a4cdx6g3klk8acfc6z3yazzk8a"
+    "ownerAddress": "marsvaloper1h3hnakda27dnn9af53g3fccsrrn0ywn2v0uzmw"
   },
   {
     "name": "planq"
   },
   {
     "name": "injective",
-    "ownerAddress": "injvaloper1vqz7mgm47xhx25xu5g9qagnz48naks6pk6fmg2"
+    "ownerAddress": "injvaloper1cutynk8xve9lqmwt4nn575x95v9849zj6p9564"
   },
   {
     "name": "xpla"
@@ -240,5 +257,17 @@
   {
     "name": "omniflixhub",
     "ownerAddress": "omniflixvaloper19d782trtcj4yq9lm7nxy3xs3xjg8vjktn3sjsd"
+  },
+  {
+    "name": "aura",
+    "ownerAddress": "auravaloper1dyw4kvnfzj9geh75jlw4z2tgmj5g9f35wu63pp"
+  },
+  {
+    "name": "migaloo",
+    "ownerAddress": "migaloovaloper1ra2wpswcmrl02cdaskvfyvjersusl8uz0h6scm"
+  },
+  {
+    "name": "quasar",
+    "ownerAddress": "quasarvaloper1qpr2ezeut3xmarqsxddyld0sdlkrppgpq6alhj"
   }
 ]
